@@ -25,7 +25,7 @@ class SecondSection extends Component {
               worldwide. How can we help you?
             </p>
             {secondSectionData.formLabels.map(label => {
-              return <input value={label}></input>;
+              return <input placeholder={label}></input>;
             })}
             <button>{secondSectionData.buttonText}</button>
           </div>

@@ -1,0 +1,8 @@
+.first-section {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 620px;
+  width: 100%;
+}

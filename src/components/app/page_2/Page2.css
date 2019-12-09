@@ -1,0 +1,24 @@
+.page2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1120px;
+  width: 100%;
+  background-color: #f8faff;
+}
+
+.page2-description {
+  margin-top: 100px;
+  font-size: 20px;
+  color: #071e57;
+  font-weight: bold;
+}
+
+.page2-tilesCt {
+  margin-top: 130px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 1170px;
+  height: 620px;
+}

@@ -1,0 +1,56 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  opacity: 0.6;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+}
+
+a:visited,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.navbar {
+  width: 545px;
+  font-size: 14px;
+}
+
+.navbar-option {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.navbar-option-dot {
+  position: relative;
+  left: 50%;
+  margin-top: 10px;
+  width: 6px;
+  height: 6px;
+  background-color: #2ed47d;
+  border-radius: 50%;
+}
+
+.navbar-search-icon {
+  position: relative;
+}

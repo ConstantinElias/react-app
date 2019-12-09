@@ -1,0 +1,38 @@
+.second-section {
+  margin-top: 60px;
+  flex-direction: column;
+  height: 620px;
+  width: 100%;
+}
+
+.second-section-content {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.second-section-content-container {
+  flex-basis: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: 460px;
+  background-color: white;
+  margin-right: 30px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.flex-center {
+  align-items: center;
+}
+
+.second-section-content-container:last-child {
+  margin: 0;
+}
+
+.aligned-center {
+  text-align: center;
+}

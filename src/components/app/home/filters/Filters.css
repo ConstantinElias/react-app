@@ -1,0 +1,37 @@
+li {
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+.filters {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  color: #253642;
+  font-size: 12px;
+  margin-top: 45px;
+}
+
+.filters-option {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.filters-option-dot {
+  position: relative;
+  left: 50%;
+  margin-top: 10px;
+  width: 6px;
+  height: 6px;
+  background-color: #1292ee;
+  border-radius: 50%;
+}
+
+.filters-search-icon {
+  position: relative;
+  top: 30%;
+}

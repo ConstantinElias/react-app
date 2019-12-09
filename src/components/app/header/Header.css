@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #404859;
+  width: 100%;
+  height: 365px;
+}
+
+.slider-title {
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.slider-subtitle {
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.slider-dot-holder {
+  margin-top: 100px;
+}
+
+.slider-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.slider-dot-active {
+  background-color: #1292ee;
+}
